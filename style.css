@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border:border-box;
+
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 112px;
+}
+
+.logo{
+    background-image: url("logoo.webp");
+    background-size: cover;
+    height: 50px;
+    width: 112px;
+}
+.borger{
+    border: 2px solid white;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.p1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    
+
+
+}
+.p2{
+   font-size: 1rem;
+   margin-left: 3px;
+}
+   .icon{
+    display: flex;
+
+    align-items: center;
+   }
+   .nav-addres{
+    margin-left: 15px;
+   
+   }
+/* search bar style kar rahe hai yaha se */
+
+
+.search{
+    background-color: pink;
+    display: flex;
+    
+    height: 38px;
+    width: 600px; 
+    border-radius: 5px;
+    justify-content: space-evenly;
+    border : 2px rgb(241, 151, 47) solid;
+   
+    
+}
+.selectfirst{
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+
+    background-color: #f3f3f3;
+    width: 50px;
+    border: none;
+    
+  
+}
+.thoko{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.mag{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgb(241, 151, 47);
+}
+
+/* box 4 ka pura css yaha par likha hua hai */
+
+
+.p3{
+    color: #ffffff;
+    font: 0.7rem;
+    
+}
+.p4{
+    color: #ffffff;
+    font: 0.9rem;
+    
+
+
+}
+
+.iconhandcar{
+
+    display: flex;
+}
+
+
+/* section two yaha se strat hai */
+
+.section2{
+
+    height: 40px;
+    background-color: #110f10c2;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+  
+}
+.menu{
+    display: flex;
+    margin: 10px;
+}
+
+.deal{
+   display: flex;
+   margin: 20px;
+    align-items: center;
+    width: 70%;
+   
+   
+    
+    
+   
+    font-size: 0.85rem;
+}
+
+
+
+.last{
+    align-items: center;
+    justify-content: center;
+    display :flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+  .pa{
+    margin: 10px;
+}
+
+
+ /* part three of project hero section   */
+
+.hero-section{
+    background-image:url("61lwJy4B8PL._SX3000_.jpg") ;
+    height: 300px;
+    background-size: cover;
+    
+
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-mess{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+
+    
+}
+
+
+/* shop-sec css style  */
+.box{
+    background-color:white;
+    height: 355px;
+    width: 23%;
+    border: 2px black solid;
+    padding: 20px,0px,15px;
+    margin: 15px;
+    
+}
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    /* flex-wrap: wrap; */
+}
+
+
+.box-img{
+    height: 300px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    background-size: cover;
+    
+}
+.box-con{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.shop-sec2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    }
+    /* flex-wrap: wrap; */
+
+    footer{
+        margin-top: 10px;
+    }
+.panel-1{
+    background-color: #37475a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 0.85rem;
+    height: 30px;
+}
